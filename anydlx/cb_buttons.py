@@ -4,8 +4,8 @@
 
 
 from pyrogram import Client as Clinton
-from Any-Dl-X.youtube_dl_button import youtube_dl_call_back
-from Any-Dl-X.dl_button import ddl_call_back
+from anydlx.youtube_dl_button import youtube_dl_call_back
+from anydlx.dl_button import ddl_call_back
 
 @Clinton.on_callback_query()
 async def button(bot, update):
