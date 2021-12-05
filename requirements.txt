@@ -23,3 +23,6 @@ ffmpeg-python
 ffmpeg
 feedparser
 requests
+filetype
+tldextract
+https://github.com/Tinche/aiofiles/archive/master.zip
