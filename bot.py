@@ -35,11 +35,11 @@ if __name__ == "__main__" :
         plugins=plugins,
         workers=10
     )
-    anydlbot = dict(
-    root="Any-Dl-X"
+    anydlx = dict(
+    root="anydlx"
     )
     app = pyrogram.Client(
         "AnyDLBot",
-        anydlbot=Any-Dl-X
+        anydlx=anydlx
     )
     app.run()
