@@ -42,4 +42,4 @@ if __name__ == "__main__" :
         "AnyDLBot",
         anydlbot=Any-Dl-X
     )
-    app run()
+    app.run()
