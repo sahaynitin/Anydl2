@@ -35,3 +35,8 @@ if __name__ == "__main__" :
         api_id=Config.APP_ID,
         api_hash=Config.API_HASH,
         anydlx=anydlx
+        plugins=plugins,
+        workers=10
+  
+    )
+    app.run()
