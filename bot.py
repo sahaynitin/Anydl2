@@ -33,7 +33,7 @@ if __name__ == "__main__" :
         api_id=Config.APP_ID,
         api_hash=Config.API_HASH,
         plugins=plugins,
-        Any-Dl-X=Any-Dl-X,
+        anydlbot=Any-Dl-X,
         workers=10
     )
     app.run()
