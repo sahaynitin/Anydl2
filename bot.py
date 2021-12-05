@@ -33,7 +33,13 @@ if __name__ == "__main__" :
         api_id=Config.APP_ID,
         api_hash=Config.API_HASH,
         plugins=plugins,
-        anydlbot=Any-Dl-X,
         workers=10
     )
-    app.run()
+    anydlbot = dict(
+    root="Any-Dl-X"
+    )
+    app = pyrogram.Client(
+        "AnyDLBot",
+        anydlbot=Any-Dl-X
+    )
+    app run()
