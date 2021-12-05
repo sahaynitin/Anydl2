@@ -38,8 +38,7 @@ if __name__ == "__main__" :
     anydlx = dict(
     root="anydlx"
     )
-    app = pyrogram.Client(
-        "AnyDLBot",
+    app = "AnyDLBot",
         anydlx=anydlx
     )
     app.run()
